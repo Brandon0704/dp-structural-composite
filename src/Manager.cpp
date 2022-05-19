@@ -16,9 +16,9 @@ void Manager::add(Employee *employee) {
     directs.push_back(employee);
 }
 
-void Manager::remove(Employee *employee) {
+/*void Manager::remove(Employee *employee) {
     std::remove(directs.begin(), directs.end(), employee);
-}
+}*/
 
 vector<Employee *> Manager::directReports() const {
     return directs;

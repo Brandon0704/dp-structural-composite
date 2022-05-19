@@ -43,7 +43,7 @@ int main() {
     organization.add(&manager1);
     organization.add(&manager2);
 
-    cout  << "------Organization: " << endl << organization << endl;
-
+   // cout  << "------Organization: " << endl << organization << endl;
+    cout << manager2;
     return 0;
 }

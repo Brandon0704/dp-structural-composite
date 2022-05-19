@@ -6,6 +6,7 @@
 #define MY_PROJECT_NAME_EMPLOYEE_H
 #include <iostream>
 #include <sstream>
+#include "vector"
 using namespace std;
 
 class Employee {

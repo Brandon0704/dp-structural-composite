@@ -14,9 +14,9 @@ void Organization::add(Employee *employee) {
     employeeList.push_back(employee);
 }
 
-void Organization::remove(Employee *employee) {
+/*void Organization::remove(Employee *employee) {
     std::remove(employeeList.begin(), employeeList.end(), employee);
-}
+}*/
 
 vector<Employee *> Organization::directReports() const {
     return employeeList;

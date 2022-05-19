@@ -23,7 +23,7 @@ public:
 
     void add(Employee *employee) override;
 
-    void remove(Employee *employee) override;
+   // void remove(Employee *employee) override;
 
     vector<Employee *> directReports() const override;
 
